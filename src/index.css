@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-tab{
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+
+.box{
+    height: 98%;
+    margin: 8px;
+}
