@@ -26,3 +26,11 @@
 .opt{
     font-weight: 600;
 }
+
+.btn{
+    background-color: violet;
+}
+
+.faded-btn{
+    background-color: white;
+}

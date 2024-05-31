@@ -26,7 +26,7 @@ function App() {
         <div>logout</div>
       </div>
 
-      <div className="h-[93%] bg-white mr-7 rounded-[18px]">
+      <div className="h-[95%] bg-white mr-7 rounded-[18px]">
 
         <div className={toggle===1?'box':'hidden'}><Students /></div>
 
