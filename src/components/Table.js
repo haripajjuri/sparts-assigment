@@ -15,6 +15,7 @@ export default function Table({details}){
               },
               body:{
                 padding:"12px 0px 12px 30px",
+                fontSize:'13px',
                 fontWeight:550,
                 color:'#636873'
               }
@@ -30,7 +31,7 @@ export default function Table({details}){
             label:"Photo",
             options:{
                 customBodyRender: () => (
-                    <img className="w-[31px]" src={`https://avatar.iran.liara.run/public/`+Math.floor(Math.random() * 101)} alt="picf"></img>
+                    <img className="w-[31px]" src={`https://avatar.iran.liara.run/public/`+Math.floor(Math.random() * 101)} alt=""></img>
                 )
             }
         },

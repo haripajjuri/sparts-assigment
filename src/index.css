@@ -2,15 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.active-tab{
-    padding: 1px;
-    border-radius: 10px;
-    background-color: rebeccapurple;
-    cursor: pointer;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
 
-.tab{
+.active-tab{
+    background: #A78BFA;
+    padding: 9px;
     cursor: pointer;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.tab:hover{
+    background: #9c8cd2;
+}
+.tab{
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
 }
 
 
@@ -19,18 +36,20 @@
     margin: 8px;
 }
 
-.search-box{
-    outline: none;
-}
 
 .opt{
     font-weight: 600;
 }
 
 .btn{
-    background-color: violet;
+    background-color: #6754B3;
+    padding: 1px 12px 2px 12px;
+    border-radius: 20px;
 }
 
 .faded-btn{
-    background-color: white;
+    background-color: #d9d9d9;
+    padding: 1px 12px 2px 12px;
+    border-radius: 20px;
+    cursor: not-allowed;
 }
