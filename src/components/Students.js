@@ -25,7 +25,7 @@ export default function Students(){
 
     const details = studetnData.slice(startPost, lastPost)
 
-    const totalPages = Math.ceil(studetnData.length / 10)
+    const totalPages = Math.ceil(studetnData.length / postPerPage)
 
 
     return(
